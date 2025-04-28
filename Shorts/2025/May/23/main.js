@@ -6,7 +6,9 @@
 
 const isPalindrome = 
   (string) => 
-    string === string.split('').reverse().join('');
+    string === string.split('')
+                      .reverse()
+                       .join('');
 
 console.log('Is Palindrome:',
               isPalindrome('racecar'));

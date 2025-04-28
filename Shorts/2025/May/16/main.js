@@ -8,4 +8,4 @@ const reverseString =
     string.split('').reverse().join('');
 
 console.log('Reversed string:', 
-  reverseString('tpircSavaJ'));
+                reverseString('tpircSavaJ'));
